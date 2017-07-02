@@ -19,6 +19,7 @@
 		D89CB8E71F09473B00FA8900 /* CustomXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89CB8E61F09473B00FA8900 /* CustomXibView.swift */; };
 		D89CB8EA1F09488100FA8900 /* 11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D89CB8E81F09488100FA8900 /* 11.jpeg */; };
 		D89CB8EB1F09488100FA8900 /* 22.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D89CB8E91F09488100FA8900 /* 22.jpeg */; };
+		D89CB8ED1F0960DC00FA8900 /* DynamicXibView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D89CB8EC1F0960DC00FA8900 /* DynamicXibView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		D89CB8E61F09473B00FA8900 /* CustomXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomXibView.swift; sourceTree = "<group>"; };
 		D89CB8E81F09488100FA8900 /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpeg; sourceTree = "<group>"; };
 		D89CB8E91F09488100FA8900 /* 22.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpeg; sourceTree = "<group>"; };
+		D89CB8EC1F0960DC00FA8900 /* DynamicXibView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DynamicXibView.podspec; path = ../../DynamicXibView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		842D6E241F06690000E684A6 /* DynamicXibDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D89CB8EC1F0960DC00FA8900 /* DynamicXibView.podspec */,
 				D89CB8E81F09488100FA8900 /* 11.jpeg */,
 				D89CB8E91F09488100FA8900 /* 22.jpeg */,
 				842D6E251F06690000E684A6 /* AppDelegate.swift */,
@@ -249,6 +252,7 @@
 			files = (
 				842D6E301F06690000E684A6 /* LaunchScreen.storyboard in Resources */,
 				D89CB8EB1F09488100FA8900 /* 22.jpeg in Resources */,
+				D89CB8ED1F0960DC00FA8900 /* DynamicXibView.podspec in Resources */,
 				842D6E2D1F06690000E684A6 /* Assets.xcassets in Resources */,
 				842D6E2B1F06690000E684A6 /* Main.storyboard in Resources */,
 				D89CB8E31F09464100FA8900 /* CustomXibView.xib in Resources */,
