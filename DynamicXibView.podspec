@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                  = 'DynamicXibView'
-s.version               = '1.1'
+s.version               = '1.2'
 s.summary               = 'Xib in StoryBoard dynamic visualization '
 s.homepage              = 'https://github.com/heroims/DynamicXibView'
 s.license               = { :type => 'MIT', :file => 'README.md' }
