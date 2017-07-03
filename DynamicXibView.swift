@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable class DynamicXibView: UIView {
+@IBDesignable open class DynamicXibView: UIView {
     @IBOutlet var contentView: UIView!
 
     override init(frame: CGRect) {
@@ -16,12 +16,12 @@ import UIKit
         initFromXIB()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initFromXIB()
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         if (contentView != nil) {
             contentView.frame = bounds
@@ -150,12 +150,12 @@ extension UIView{
     }
 }
 
-@IBDesignable class DynamicXibImageView: UIImageView {
+@IBDesignable open class DynamicXibImageView: UIImageView {
 }
 
-@IBDesignable class DynamicXibLabel: UILabel {
+@IBDesignable open class DynamicXibLabel: UILabel {
 }
 
-@IBDesignable class DynamicXibButton: UIButton {
+@IBDesignable open class DynamicXibButton: UIButton {
 }
 
