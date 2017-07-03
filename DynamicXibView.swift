@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable open class DynamicXibView: UIView {
     @IBOutlet var contentView: UIView!
 
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         initFromXIB()
     }
@@ -28,7 +28,7 @@ import UIKit
         }
     }
 
-    func initFromXIB() {
+    public func initFromXIB() {
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: self.className(), bundle: bundle)
         contentView = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
@@ -157,5 +157,11 @@ extension UIView{
 }
 
 @IBDesignable open class DynamicXibButton: UIButton {
+}
+
+@IBDesignable open class DynamicXibTextField: UITextField {
+}
+
+@IBDesignable open class DynamicXibTextView: UITextView {
 }
 
